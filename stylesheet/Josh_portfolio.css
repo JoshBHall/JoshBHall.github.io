@@ -27,7 +27,7 @@ h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
     font-family: "Book Antiqua", Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */ 
-    margin-top: 3%; /* Adds a small margin above h1 elements */
+    margin-top: 2%; /* Adds a small margin above h1 elements */
     color: #719192;
 }
 
@@ -349,7 +349,7 @@ footer {
     float:left;
     width: 50%; /* This ensures the column takes up half the page width */
     padding: 1.6%;
-    height: 550px; /* This sets the height of the column to 450px - this may need to be adjusted depending on the text entered */
+    height: 950; /* This sets the height of the column to 450px - this may need to be adjusted depending on the text entered */
     background-color: #f3f6f6; /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -364,7 +364,7 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 550px;
+    height: 950px;
     background-color: #719192;
 }
 
@@ -373,10 +373,6 @@ footer {
     content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
     display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
     clear: both; /* This clears any other elements from floating on the left or the right of an element */
-}
-
-#About {
-    height: 1250px;
 }
 
 /***** END OF TABLE STYLING *****/
