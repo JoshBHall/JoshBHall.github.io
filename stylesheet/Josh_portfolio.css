@@ -349,7 +349,7 @@ footer {
     float:left;
     width: 50%; /* This ensures the column takes up half the page width */
     padding: 1.6%;
-    height: 825px; /* This sets the height of the column to 450px - this may need to be adjusted depending on the text entered */
+    height: 875px; /* This sets the height of the column to 450px - this may need to be adjusted depending on the text entered */
     background-color: #f3f6f6; /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -364,7 +364,7 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 825px;
+    height: 875px;
     background-color: #719192;
 }
 
@@ -417,7 +417,7 @@ footer {
 /* Form styling */
 
 .form-container {
-    max-width: 40vw; /* Relative sizing of the form container - 49% of the viewport width */
+    max-width: 40vw; /* Relative sizing of the form container - 40% of the viewport width */
     padding: 1vw; /* Adds padding between the form-popup and the form-container */
     background-color: white;
     color: #3c4245;
